@@ -56,7 +56,6 @@ public abstract class BaseMVPActivity<P extends IPresenter> extends AppCompatAct
         }
     }
 
-    @Override
     public Context getContext() {
         return this;
     }

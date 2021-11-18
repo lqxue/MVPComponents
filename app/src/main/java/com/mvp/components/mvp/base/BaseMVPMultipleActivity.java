@@ -68,7 +68,6 @@ public abstract class BaseMVPMultipleActivity extends AppCompatActivity implemen
         mInjectPresenters = null;
     }
 
-    @Override
     public Context getContext() {
         return this;
     }
